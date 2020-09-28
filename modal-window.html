@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>main</title>
+	<!-- style -->
+	<link href="css/style.min.css" rel="stylesheet">
+	<style type="text/css">
+		body{
+			padding-top: 20px;
+		}
+		.modal-window{
+			display: block !important;
+			position: relative !important;
+			margin-bottom: 2rem;
+		}
+		code{
+			max-width: 900px;
+			margin: 0 auto;
+			font-size: 20px;
+			display: block;
+			margin-bottom: 10px;
+			color: #f00;
+		}
+	</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+<code>
+	open_window('info-modal', 'title', 'text')
+</code>
+<div class="modal-window" data-modal='info-modal'>
+	<div class="window">
+		<div class="close"></div>
+		<h3></h3>
+		<p></p>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<code>
+	open_window('"preload')
+</code>
+<div class="modal-window" data-modal="preload">
+	<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="64px" height="64px" viewBox="0 0 128 128" xml:space="preserve"><g><linearGradient id="linear-gradient"><stop offset="0%" stop-color="#ffffff" fill-opacity="0"/><stop offset="100%" stop-color="#00b2a8" fill-opacity="1"/></linearGradient><path d="M63.85 0A63.85 63.85 0 1 1 0 63.85 63.85 63.85 0 0 1 63.85 0zm.65 19.5a44 44 0 1 1-44 44 44 44 0 0 1 44-44z" fill="url(#linear-gradient)" fill-rule="evenodd"/><animateTransform attributeName="transform" type="rotate" from="0 64 64" to="360 64 64" dur="1080ms" repeatCount="indefinite"></animateTransform></g></svg>
+</div>
+
+
+
+
+
+
+
+	<!-- script -->
+	<script src="js/jquery/jquery-3.4.1.min.js"></script>
+	<!-- functions -->
+	<script src="js/function.js"></script>
+	<!-- valid-form  -->
+	<script src="js/plugins/valid-form.js"></script>
+	<!-- script -->
+</body>
+</html>
